@@ -1,8 +1,25 @@
-<span>File Upload<input type="file"
-       id="photo" name="photo"
-       accept="image/png, image/jpeg"></span>
-
-<form action="Upload.php">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
-</form>
+ 
+ ​<​html​> 
+ ​  ​<​head​> 
+ ​    ​<​title​>​File upload example​</​title​> 
+ ​    ​<​style​> 
+ ​      ​div​ { 
+ ​        ​margin-bottom​:​ ​10​px​; 
+ ​      } 
+ ​    ​</​style​> 
+ ​  ​</​head​> 
+ ​  ​<​body​> 
+ ​      ​<​form​> 
+ ​       ​<​div​> 
+ ​         ​<​label​ ​for​="​file​"​>​Choose file to upload​</​label​> 
+ ​         ​<​input​ ​type​="​file​" ​id​="​file​" ​name​="​file​" ​multiple​> 
+ ​       ​</​div​> 
+ ​       ​<​div​> 
+ ​         ​<​button​>​Submit​</​button​> 
+ ​       ​</​div​> 
+ ​      ​</​form​> 
+ ​     ​<​script​> 
+ ​       ​var​ ​test​ ​=​ ​document​.​querySelector​(​'input'​)​; 
+ ​     ​</​script​> 
+ ​  ​</​body​> 
+ ​</​html​>
